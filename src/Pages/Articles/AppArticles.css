@@ -1,0 +1,6 @@
+@import "card-list.css";
+
+.articles__btn {
+    width: 30%;
+    height: 5vh;
+}

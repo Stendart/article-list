@@ -1,0 +1,2 @@
+export const LOAD_ARTICLES = 'LOAD_ARTICLES'
+export const GET_PART_ARTICLES = 'GET_PART_ARTICLES'
