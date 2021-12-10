@@ -1,7 +1,10 @@
 import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
 
 class AppUsers extends PureComponent {
+    componentDidMount() {
+        console.log('User')
+    }
+
     render() {
         return (
             <div>
@@ -11,6 +14,5 @@ class AppUsers extends PureComponent {
     }
 }
 
-AppUsers.propTypes = {};
 
 export default AppUsers;

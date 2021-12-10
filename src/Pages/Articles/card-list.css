@@ -7,3 +7,13 @@
 .card-list__item {
     margin: 10px;
 }
+
+.card-list__item--small {
+    min-width: 30%;
+    max-width: 40%;
+}
+
+.card-list__item--big {
+    min-width: 35%;
+    max-width: 45%;
+}

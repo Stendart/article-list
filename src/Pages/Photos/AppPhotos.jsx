@@ -1,5 +1,4 @@
 import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
 
 class AppPhotos extends PureComponent {
     render() {
@@ -11,6 +10,5 @@ class AppPhotos extends PureComponent {
     }
 }
 
-AppPhotos.propTypes = {};
 
 export default AppPhotos;

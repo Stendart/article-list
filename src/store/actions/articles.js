@@ -1,4 +1,4 @@
-import {GET_PART_ARTICLES, LOAD_ARTICLES} from "./actionTypes";
+import {LOAD_ARTICLES} from "./actionTypes";
 
 export const loadArticles =  () => {
     return async dispatch => {
@@ -10,8 +10,8 @@ export const loadArticles =  () => {
     }
 }
 
-export const getPartArticles = () => {
-    return {
-        type: GET_PART_ARTICLES
-    }
-}
+// export const getPartArticles = () => {
+//     return {
+//         type: GET_PART_ARTICLES
+//     }
+// }
